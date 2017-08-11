@@ -45,13 +45,16 @@ nav {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
-
 }
 
 .navbar li {
 	display: inline;
 	line-height: 70px;
 	padding-right: 20px;
+}
+
+.navbar li a {
+	text-decoration: none;
 }
 
 .container {
@@ -113,3 +116,22 @@ footer {
 	position: sticky;
 	bottom: 1px;
 }
+
+/* PORTFOLIO PAGE */
+.portfolio {
+	float: left;
+	/* Not according to HW Spec */
+	width: 570px;
+	height: 760px;
+	border: 2px solid #cccccc;
+	padding: 0 25px;
+	margin: 0 20px 80px 0;
+}
+
+.portfolio img {
+	width: 254px;
+	float: left;
+	margin: 14px;
+}
+
+
